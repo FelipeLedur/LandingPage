@@ -90,7 +90,7 @@ export default function Home() {
                         Olá
                     </p>
                     <h1>Com o Seu Silo você nunca mais ficará sem ração!</h1>
-                    <p>Já pensou em pedir ração diretamente pelo seu celular? Apenas o Seu Silo faz isso para você!.
+                    <p>Já pensou em pedir ração diretamente pelo seu celular? Apenas o Seu Silo faz isso para você!
                     </p>
                     <div className="flex gap-1">
                         <span><Button text="Cadastre-se" /></span>
