@@ -106,7 +106,7 @@ export default function Home() {
                         O Seu silo é a solução que você precisava para sua fazenda, venha ser mais um de nossos muitos clientes.
                     </p>
                     <p>
-                        Inovação é com a gente! Veja tudo que pode ganhar com nossos serviços
+                        Inovação é com a gente! Veja tudo que pode ganhar com nossos serviços.
                     </p>
 
                     <div className="cards-container">
@@ -118,7 +118,7 @@ export default function Home() {
                                 <img src={Award} alt="ícone menu" width={24} height={24} />
                             </div>
                             <h3>Produto de Qualidade</h3>
-                            <p className="desktop-only">Nosso produto já recebou várias premiações na questão de qualidade e funcionamento</p>
+                            <p className="desktop-only">Nosso produto já recebou várias premiações na questão de qualidade e funcionamento.</p>
                         </div>
 
                         <div className="card">
@@ -126,7 +126,7 @@ export default function Home() {
                                 <img src={Award} alt="ícone menu" width={24} height={24} />
                             </div>
                             <h3>Produto Único</h3>
-                            <p className="desktop-only">Um produto nunca antes visto no mercado, 100% inovativo</p>
+                            <p className="desktop-only">Um produto nunca antes visto no mercado, 100% inovativo.</p>
                         </div>
 
                         <div className="card">
@@ -134,7 +134,7 @@ export default function Home() {
                                 <img src={Award} alt="ícone menu" width={24} height={24} />
                             </div>
                             <h3>Produto Recomendado</h3>
-                            <p className="desktop-only">App com 4.9 estrelas na Google Play e App Store, com milhares de recomendações positivas</p>
+                            <p className="desktop-only">App com 4.9 estrelas na Google Play e App Store, com milhares de recomendações positivas.</p>
                         </div>
 
                     </div>
