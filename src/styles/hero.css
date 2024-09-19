@@ -33,7 +33,7 @@
     margin-bottom: 20%;
 }
 
- @media (width >= 1280px) {
+/* @media (width >= 1280px) {
     #hero {
         background: var(--bg-color);
         border-top: none;
@@ -69,4 +69,4 @@
             color: var(--primary-color);
             font-weight: var(--fw-bold);
         }
-}   }     
+}   }     */
