@@ -1,8 +1,10 @@
 #hero {
     background: var(--light-gray);
     border-top: 0.125rem solid #e4e4e4;
-    height: 90vh;
+    height: 155vh;
     display: flex;
+
+    
 }
 
 #hero > img {
@@ -31,13 +33,15 @@
     margin-bottom: 20%;
 }
 
-@media (width >= 1280px) {
+/* @media (width >= 1280px) {
     #hero {
         background: var(--bg-color);
         border-top: none;
         > span {
             position: absolute;
             top: 0;
+
+            
         }
         
         > img {
@@ -65,4 +69,4 @@
             color: var(--primary-color);
             font-weight: var(--fw-bold);
         }
-}   }    
+}   }     */
