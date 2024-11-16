@@ -1,0 +1,38 @@
+#contact {
+    display: flex;
+    flex-direction: column;
+    padding-block: 4rem;
+    gap: 2rem;
+
+    header {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        align-items: center;
+    
+        :first-child {
+            color: var(--primary-color);
+            font-weight: var(--fw-bold);
+        }
+    }
+
+   
+    }
+
+    
+    
+
+
+@media (width >=1280px) {
+    
+    
+    #pricing {
+        gap: 5rem;
+        padding-block: 5rem;
+        display: flex;
+    }
+
+    h3 {
+        font-size: 1.25rem;
+    }
+}

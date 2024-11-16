@@ -40,8 +40,6 @@
         > span {
             position: absolute;
             top: 0;
-
-            
         }
         
         > img {
@@ -49,24 +47,29 @@
             height: 82%;
             padding-left: 55%;
         }
+    
         .content p {
             width: 80%;
             align-self: center;
+            font-size: var(--fs-lg);
+            font-weight: var(--fw-base);
         }
+
         .content {
             gap: 2.5rem;
         }
         
         .content > div :first-child {
             width: 10.625rem;
-        }
-        .content p {
-            width: 80%;
-            align-self: center;
+            
         }
         
         .content p:first-of-type {
             color: var(--primary-color);
             font-weight: var(--fw-bold);
+            font-size: var(--fs-base);
         }
-}   }     */
+    
+
+    }
+} */
