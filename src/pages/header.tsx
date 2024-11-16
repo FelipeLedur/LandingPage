@@ -1,5 +1,8 @@
 import { useState } from "react";
 import Logo from '../assets/aaaaa.svg';
+import Facebook from '../assets/facebook.svg';
+import Instagram from '../assets/instagram.svg';
+import Twitter from '../assets/twitter.svg';
 import Close from '../assets/Close.svg';
 import Menu from '../assets/Header.svg';
 import Award from '../assets/award.svg';
@@ -18,6 +21,7 @@ import "../styles/hero.css";
 import "../styles/testimonials.css"
 import "../styles/pricing.css"
 import "../styles/contact.css"
+import "../styles/footer.css"
 import Check from "../assets/Check.svg"
 
 
@@ -348,6 +352,44 @@ export default function Home() {
                     </form>
                 </section>
             </section>
+
+            <footer className="footer">
+  <div className="container">
+    <div className="footer-content">
+
+      <div className="footer-nav">
+        <ul className="footer-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#solution">Soluções</a></li>
+          <li><a href="#testimonials">Depoimentos</a></li>
+          <li><a href="#pricing">Preços</a></li>
+          <li><a href="#contact">Contato</a></li>
+        </ul>
+      </div>
+
+      <div className="footer-contact">
+        <p><strong>Entre em contato:</strong></p>
+        <p>E-mail: <a href="mailto:faledur@minha.fag.edu.br">faledur@minha.fag.edu.br</a></p>
+        <p>Telefone: (45) 3333-4444</p>
+      </div>
+
+      <div className="footer-social">
+        <p><strong>Siga-nos:</strong></p>
+        <ul className="social-icons">
+          <li><a href="https://facebook.com" target="_blank" rel="noopener noreferrer"><img src={Facebook} alt="facebook" /></a></li>
+          <li><a href="https://twitter.com" target="_blank" rel="noopener noreferrer"><img src={Twitter} alt="Twitter" /></a></li>
+          <li><a href="https://instagram.com" target="_blank" rel="noopener noreferrer"><img src={Instagram} alt="Instagram" /></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div className="footer-bottom">
+    <div className="container">
+      <p className="footer-copyright">© 2024 Seu Silo. Todos os direitos reservados.</p>
+    </div>
+  </div>
+</footer>
         </>
     );
 }

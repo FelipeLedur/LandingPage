@@ -1,0 +1,87 @@
+.footer {
+    background-color: #f8f9fa; /* Cor de fundo clara */
+    color: #343a40; /* Cor do texto escura */
+    padding: 40px 0;
+    font-size: 14px;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .footer-logo img {
+    max-width: 100%;
+  }
+  
+  .footer-nav, .footer-contact, .footer-social {
+    flex: 1;
+    min-width: 250px;
+    margin-right: 20px;
+  }
+  
+  .footer-links {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .footer-links li {
+    margin: 10px 0;
+  }
+  
+  .footer-links li a {
+    color: #343a40;
+    text-decoration: none;
+  }
+  
+  .footer-links li a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-contact p, .footer-social p {
+    margin: 10px 0;
+  }
+  
+  .footer-social .social-icons {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+  }
+  
+  .footer-social .social-icons li {
+    margin-right: 15px;
+  }
+  
+  .footer-social .social-icons li a {
+    color: #343a40;
+    font-size: 18px;
+  }
+  
+  .footer-social .social-icons li a:hover {
+    opacity: 0.8;
+  }
+
+  .footer-social .social-icons li a img {
+  width: 40px;  /* Define a largura fixa da imagem */
+  height: 40px; /* Define a altura fixa da imagem */
+  object-fit: contain; /* Faz a imagem se ajustar ao tamanho sem distorcer */
+  transition: transform 0.3s ease; /* Adiciona um efeito suave quando o mouse passa sobre a imagem */
+}
+
+.footer-social .social-icons li a:hover img {
+  transform: scale(1.1); /* Leve aumento de tamanho ao passar o mouse */
+}
+
+  
+  .footer-bottom {
+    background-color: #e9ecef; /* Cor de fundo mais clara */
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .footer-copyright {
+    margin: 0;
+    color: #6c757d; /* Cor mais suave para o texto de copyright */
+  }
+  
